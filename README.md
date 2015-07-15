@@ -28,12 +28,12 @@ chown -R apache:apache reCAPTCHA/
 Create `definitions.reCAPTCHA.php` in your language pack with the following definitions:
 
 ```
-$definitions["Are you human?"] = "Are you human?";
-$definitions["Secret Key"] = "Secret Key";
-$definitions["Site Key"] = "Site Key";
-$definitions["Language"] = "Language";
-$definitions["message.reCAPTCHA.settings"] = "Enter your reCAPTCHA Keys (<a href='https://www.google.com/recaptcha/admin#whyrecaptcha' target='_blank'>Don't have any keys yet? Get them here!</a>)";
-$definitions["message.invalidCAPTCHA"] = "The CAPTCHA is invalid. Please try again.";
+$definitions["Are you human?"] = "Você é um humano?";
+$definitions["Secret Key"] = "Código secreto";
+$definitions["Site Key"] = "Código do site";
+$definitions["Language"] = "Idioma";
+$definitions["message.reCAPTCHA.settings"] = "Insira seus códigos reCAPTCHA (<a href='https://www.google.com/recaptcha/admin#whyrecaptcha' target='_blank'>Não tem nenhum código? Crie um aqui</a>)";
+$definitions["message.invalidCAPTCHA"] = "O CAPTCHA é inválido. Tente novamente";
 ```
 
 ### Screenshots
